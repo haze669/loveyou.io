@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Proposal</title>
+</head>
+<body>
+    <div class="container">
+        <img src="your-image-file.jpg" alt="Proposal Image" style="max-width: 100%; height: auto;">
+        <h1>Will you be my wife?</h1>
+        <button id="yesButton">Yes</button>
+        <button id="noButton">No</button>
+    </div>
+    <script>
+        document.getElementById('yesButton').onclick = function() {
+            window.location.href = 'love.html';
+        };
+        document.getElementById('noButton').onclick = function() {
+            window.location.href = 'index.html';
+        };
+    </script>
+</body>
+</html>
